@@ -10,7 +10,7 @@ export default function HeroSection() {
           alt="Unlimited Void"
           className="w-full h-full object-cover"
           style={{ imageRendering: 'crisp-edges' }}
-          src="./public/screen.png"
+          src={`${import.meta.env.BASE_URL}screen.png`}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-r from-background/60 via-transparent to-background/60" />
